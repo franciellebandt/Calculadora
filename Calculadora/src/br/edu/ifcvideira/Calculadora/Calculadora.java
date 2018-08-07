@@ -11,6 +11,7 @@ public class Calculadora {
 		int numero2=0;
 		int soma=0;
 		int subtracao=0;
+		int divisao=0;
 		
 		System.out.print("Digite o primeiro número: ");
 		numero1 = entrada.nextInt();
@@ -35,6 +36,18 @@ public class Calculadora {
 		
 		
 		System.out.printf("O resultado da subtração é %d",subtracao);
+		
+		
+		System.out.print(" Digite o primeiro número para divisão: ");
+		numero1 = entrada.nextInt();
+		
+		System.out.print("Digite o segundo número para divisão: ");
+		numero2 = entrada.nextInt();
+		
+		divisao = numero1/numero2;
+		
+		
+		System.out.printf("O resultado da divisão é %d",divisao);
 	}
 
 }
