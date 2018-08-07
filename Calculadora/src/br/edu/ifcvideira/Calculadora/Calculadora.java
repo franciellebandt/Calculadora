@@ -12,6 +12,7 @@ public class Calculadora {
 		int soma=0;
 		int subtracao=0;
 		int divisao=0;
+		int multiplicacao=0;
 		
 		System.out.print("Digite o primeiro número: ");
 		numero1 = entrada.nextInt();
@@ -48,6 +49,19 @@ public class Calculadora {
 		
 		
 		System.out.printf("O resultado da divisão é %d",divisao);
+		
+		
+		
+		System.out.print(" Digite o primeiro número para multiplicação: ");
+		numero1 = entrada.nextInt();
+		
+		System.out.print("Digite o segundo número para multiplicação: ");
+		numero2 = entrada.nextInt();
+		
+		multiplicacao = numero1*numero2;
+		
+		
+		System.out.printf("O resultado da multiplicação é %d",multiplicacao);
 	}
 
 }
